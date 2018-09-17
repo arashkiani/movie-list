@@ -1,5 +1,6 @@
 {
   "name": "movie-listings",
+  "homepage":"https://arashkiani.github.io/movie-list/",
   "browserslist": [
     "last 4 versions",
     "not ie <= 8"
@@ -22,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom --runInBand --updateSnapshot",
+    "test": "react-scripts test --env=jsdom --runInBand",
     "wtest": "react-scripts test --env=jsdom --watchAll",
     "ctest": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject",

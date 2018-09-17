@@ -1,7 +1,9 @@
 # [►] Movie List!
 
 ## instructions
-Download and install: Allow-Control-Allow-Origin: *
+
+Download a copy of the files and npm install & start
+or visit https://arashkiani.github.io/movie-list/ to see the live code
 
 ## Links
 * https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
@@ -14,7 +16,7 @@ Download and install: Allow-Control-Allow-Origin: *
 
 ## Steps
 
-* Go through the instruction and make sure I understand everthing required [✓]
+* Go through the instruction and make sure I understand everything required [✓]
 * Install React [✓]
 * Install packages needed + Setup Linting + VScode [✓]
 * Register @ TMDb & Investigate Api (thank you for the pointers) [✓]
@@ -25,7 +27,7 @@ Download and install: Allow-Control-Allow-Origin: *
     3 do it through redux actions
   * Movie ( to show title + details)
   * input [ range & checkbox ] : Will be used as (child/atom element )
-  * selectGenresFilter : use Input / possibely toggleable  [✓]
+  * selectGenresFilter : use Input / possibly toggleable  [✓]
   * selectRangeFilter : use Input  [✓]
   * App component (where everything fits together)
 * Hacking a layout to get the feeling of api dataflow  [✓]
@@ -36,12 +38,12 @@ Download and install: Allow-Control-Allow-Origin: *
 
 * Using React
 * Axios (I understand how .fetch() works and I could use polyfill, but I feel Axios is better at handling the job )
-* Redux for state managment (do i really need it ?)
+* Redux for state management (do i really need it ?)
 
 ## Requirements
 
 * UI : clean DRY layout + typography
-* Dont over engineer, comment and test
+* Don't over engineer, comment and test
 * API's should only be called once.
 
 ## API To Use &  Tips
@@ -63,4 +65,4 @@ Download and install: Allow-Control-Allow-Origin: *
 couple of points that I assumed are out of the scope of the project
 
 * show a message if no movies are available
-* loop though the pages / build lazy loading to fetch other pages
+* loop through the pages / build lazy loading to fetch other pages
