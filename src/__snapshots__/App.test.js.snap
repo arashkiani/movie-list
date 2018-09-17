@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Match Snapshot 1`] = `
+<ForwardRef>
+  <ForwardRef>
+    <ForwardRef>
+      <a
+        href="/"
+        target="black"
+      >
+        ZMDB
+      </a>
+    </ForwardRef>
+    <Connect(SelectRangeFilter) />
+    <Connect(SelectGenresFilter) />
+  </ForwardRef>
+  <Connect(Collection) />
+</ForwardRef>
+`;

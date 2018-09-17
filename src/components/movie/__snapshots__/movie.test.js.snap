@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Movie /> Match Snapshot 1`] = `
+<ForwardRef>
+  <ForwardRef>
+    <img
+      alt="title Poster Image"
+      src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/poster_path"
+    />
+  </ForwardRef>
+  <ForwardRef>
+    <ForwardRef>
+      <h2>
+        title
+      </h2>
+      1
+    </ForwardRef>
+    <ForwardRef>
+      overview
+    </ForwardRef>
+  </ForwardRef>
+</ForwardRef>
+`;

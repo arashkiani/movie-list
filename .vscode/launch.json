@@ -1,0 +1,45 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Jest All",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",      
+            "args": [
+                "test",
+                "--runInBand",
+                "--no-cache",
+                "--onlyChanged",
+                "--env=jsdom"
+            ],
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+	    {
+            "name": "chrome",
+            "type": "chrome",             
+            "request": "launch",
+            "webRoot": "${workspaceRoot}",
+            "url": "http://localhost:3000",
+            "sourceMaps": true,
+            "internalConsoleOptions": "openOnSessionStart",
+            "runtimeExecutable": "/opt/google/chrome/google-chrome",
+            "skipFiles": [
+                "node_modules/**",
+                ".git/**"
+            ],
+            "port": 9222,
+            "sourceMapPathOverrides": {
+                "webpack:///*": "${webRoot}/*"
+            },
+            "runtimeArgs": [
+                "--remote-debugging-port=9222",
+                "--runInBand",
+                "--watch"
+            ]
+        }
+	]
+}

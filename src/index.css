@@ -1,0 +1,16 @@
+/*
+https://flatuicolors.com/palette/es
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  /* so it looks like movie Script */
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  -webkit-font-smoothing:antialiased;
+  background: #f7f1e3;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

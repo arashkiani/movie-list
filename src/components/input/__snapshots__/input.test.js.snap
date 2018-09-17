@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> Match Snapshot 1`] = `
+<ForwardRef
+  type="range"
+/>
+`;

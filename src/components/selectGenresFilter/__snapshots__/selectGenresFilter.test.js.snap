@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectGenresFilter /> Match Snapshot 1`] = `
+<div>
+  <ForwardRef
+    onClick={[Function]}
+  >
+    <button
+      className="sc-htpNat jSUnNu"
+      onClick={[Function]}
+    >
+      Filter 
+      ▼
+    </button>
+  </ForwardRef>
+</div>
+`;

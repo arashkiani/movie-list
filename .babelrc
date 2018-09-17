@@ -1,0 +1,5 @@
+{
+  "presets": ["env", "react", "flow", "babel-eslint"],
+  "plugins": ["flowtype", "styled-components"],
+  "retainLines": true
+}

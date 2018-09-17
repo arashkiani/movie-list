@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectRangeFilter /> Match Snapshot 1`] = `
+<ForwardRef>
+  <form
+    onChange={[Function]}
+  >
+    <ForwardRef
+      htmlFor="minRating"
+    >
+      Rating
+    </ForwardRef>
+    <Component
+      defaultValue={3}
+      max="10"
+      min="0"
+      name="minRating"
+      step="0.5"
+      type="range"
+    />
+  </form>
+</ForwardRef>
+`;

@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules
+.*/*.test\.js
+.*/coverage
+.*/src/setupTests.js
+
+[include]
+
+[libs]
+<PROJECT_ROOT>/flow-typed/
+[lints]
+
+[options]
+all=true
+[strict]
