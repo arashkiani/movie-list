@@ -66,7 +66,7 @@ SelectGenresFilter.propTypes = {
 const GenresWrapper = styled.div`
 	z-index:99;
 	position:absolute;
-	right:0;
+	margin-left:-4px;
 	background: #FFF;
 	padding: 1em;
 	width:12em;
